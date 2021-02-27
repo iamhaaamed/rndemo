@@ -22,6 +22,7 @@
 		B4D80A97242E3F6C0099AF3D /* AmazonChimeSDKMedia.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B4D80A93242E3F6C0099AF3D /* AmazonChimeSDKMedia.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B4D80A9B242E3FC80099AF3D /* NativeMobileSDKBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = B4D80A9A242E3FC80099AF3D /* NativeMobileSDKBridge.m */; };
 		B4D80AB9242E61160099AF3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4D80AB8242E61160099AF3D /* AVFoundation.framework */; };
+		CE6DF68425EA0C3C00AE0346 /* main.jsbundle in Resources */ = {isa = PBXBuildFile; fileRef = CE6DF68325EA0C3C00AE0346 /* main.jsbundle */; };
 		CEFB81ED25DE707A00EF1ABD /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEFB81EC25DE707A00EF1ABD /* AppCenter-Config.plist */; };
 /* End PBXBuildFile section */
 
@@ -75,6 +76,7 @@
 		B4D80A9C242E3FEA0099AF3D /* NativeMobileSDKBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NativeMobileSDKBridge.h; path = RNDemo/NativeMobileSDKBridge.h; sourceTree = "<group>"; };
 		B4D80AB8242E61160099AF3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C95591044192B023BF5BB137 /* Pods-RNDemo-RNDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNDemo-RNDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RNDemo-RNDemoTests/Pods-RNDemo-RNDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE6DF68325EA0C3C00AE0346 /* main.jsbundle */ = {isa = PBXFileReference; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		CEFB81EC25DE707A00EF1ABD /* AppCenter-Config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "RNDemo/AppCenter-Config.plist"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
@@ -173,6 +175,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				CE6DF68325EA0C3C00AE0346 /* main.jsbundle */,
 				13B07FAE1A68108700A75B9A /* RNDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RNDemoTests */,
@@ -300,6 +303,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6DF68425EA0C3C00AE0346 /* main.jsbundle in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				CEFB81ED25DE707A00EF1ABD /* AppCenter-Config.plist in Resources */,
